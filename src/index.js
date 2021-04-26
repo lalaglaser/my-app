@@ -23,6 +23,15 @@ class AppRouter extends React.Component {
 
         </nav>
 
+      <Switch>
+        <Route path="/"exact component={App} />
+        <Route path="/login"exact component={Login} />
+        <Route path="/register"exact component={Register} />
+      </Switch>
+
+
+
+
       </div>
 
 
